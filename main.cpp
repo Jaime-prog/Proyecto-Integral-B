@@ -42,6 +42,7 @@ void ordenar(char arr[][50], int n){
    }
 }
 
+// busqueda a través de busqueda binaria
 int binarySearch(int arr[], int p, int r, int num) {
    if (p <= r) {
       int mid = (p + r)/2;
